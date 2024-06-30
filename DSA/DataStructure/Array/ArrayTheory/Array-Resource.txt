@@ -126,3 +126,8 @@
     - An array is homogeneous in nature so, a single array cannot store values of different data types.
     - Arrays store data in contiguous memory locations, which makes deletion and insertion very difficult to implement.
     - This problem is overcome by implementing linked lists, which allow elements to be accessed sequentially.
+
+🟩 Summary
+    - Arrays are a simple method of accessing elements of the same type by grouping them
+    - We can find the elements efficiently by their indexes and can perform different operations using them.
+    - Array is more  efficient when it comes to memory allocation and should be used in all modern programming languages. 
