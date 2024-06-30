@@ -1,0 +1,128 @@
+
+🟩 Array:
+    - Array is a linear data structure that stores a collection of elements of the same data type.
+    - Elements are allocated contiguous memory, allowing for constant-time access. 
+    - Each element has a unique index number.
+
+🟩 Importance of Array:
+    - The idea of an array is to represent many instances in one variable.
+
+🟩 Basic terminologies of Array:
+    - Array Index: In an array, elements are identified by their indexes. Array index starts from 0.
+    - Array element: Elements are items stored in an array and can be accessed by their index.
+    - Array Length: The length of an array is determined by the number of elements it can contain. 
+
+🟩 Declaration of Array:
+    - let arr = [];
+    - let arr = new Array(5);
+
+🟩 Initialization of Array:
+    - let arr = [ 1, 2, 3, 4, 5 ];
+    - let arr = [ 'a', 'b', 'c', 'd', 'e' ];
+    - let arr = [ 1.4, 2.0, 24, 5.0, 0.0 ];
+
+🟩 Types of Arrays:
+    - On the basis of Memory Allocation
+        * Static or compile-time Array:
+            ** Memory is allocated at compile time having a fixed size of it.
+            ** In case, we don’t know the size of the array then if we declare a larger size and store a lesser number of elements
+                will result in a wastage of memory or or we declare a lesser size than the number of elements then
+                we won’t get enough memory to store all the elements. In such cases,static memory allocation is not preferred.
+            ** let arr[] = {1, 2, 3, 4, 5}
+        * Dynamic Run-time Array:
+            ** Memory is allocated at run time but not having a fixed size.
+            ** Suppose, a user wants to declare any random size of an array, then we will not use a static array,
+                instead of that a dynamic array is used. This type of memory allocation is also known as dynamic or run-time memory allocation.
+                It is used to specify the size of it during the run time of any program.
+            ** llet arr = new Array(5);
+    - On the basis of Dimensions
+        * One-dimensional array:
+            ** A simple array with a single dimension.
+            ** We can imagine a 1d array as a row, where elements are stored one after another.
+        * Multidimensional array:
+            ** An array with multiple dimensions, such as a matrix.
+            ** We can use multidimensional array to store complex data in the form of tables.
+                *** Two Dimensional or Matrix consisting of rows and columns
+                *** Three Dimensional is considered an array of two-dimensional array.
+
+🟩 Operations on Array:
+    - Traversal: Iterating through the elements of an array.
+        * let arr = [1, 2, 3, 4, 5]
+          for (let x of arr)
+          console.log(x)
+    - Insertion: Adding an element to the array at a specific index.
+        * function insertElement(arr, n, x, pos)
+            {
+                var i = n - 1;
+                for (i; i >= pos; i--)
+                {
+                    arr[i + 1] = arr[i];
+                }
+                arr[pos] = x;
+            }
+    - Deletion: Removing an element from the array at a specific index.
+        * function findElement(arr,n,key)
+            {
+                let i;
+                for (i = 0; i < n; i++)
+                    if (arr[i] == key)
+                        return i;
+                return -1;
+            }
+         function deleteElement(arr,n,key)
+            {
+                let pos = findElement(arr, n, key);
+                if (pos == -1)
+                {
+                    document.write("Element not found");
+                    return n;
+                }
+                // Deleting element
+                let i;
+                for (i = pos; i< n - 1; i++)
+                    arr[i] = arr[i + 1];
+                return n - 1;
+            }
+    - Searching: Finding an element in the array by its value or index.
+        * function findElement(arr,n,key)
+            {
+                let i;
+                for (i = 0; i < n; i++)
+                    if (arr[i] == key)
+                        return i;
+                return -1;
+            }
+
+
+🟩 Complexity of Array:
+    - Time Complexity (Best Case, Average Case, Worst Case):
+        * Traversal : Sigma(N), Theta(N), BigO(N)
+        * Insertion : Sigma(1), Theta(N), BigO(N)
+        * Deletion : Sigma(1), Theta(N), BigO(N)
+        * Searching : Sigma(1), Theta(N), BigO(N)
+    - Space or Memory Complexity (Best Case, Average Case, Worst Case):
+        * Traversal : Sigma(1), Theta(1), BigO(1)
+        * Insertion : Sigma(1), Theta(N), BigO(N)
+        * Deletion : Sigma(1), Theta(N), BigO(N)
+        * Searching : Sigma(1), Theta(1), BigO(1)
+
+🟩 Applications of Array:
+    - Storing data in a sequential manner
+    - Implementing queues, stacks, array lists, heaps, hash tables, vectors, and matrices.
+    - Representing matrices and tables
+    - Database records are usually implemented as arrays.
+
+
+🟩 Advantages of Array :
+    - Arrays allow random access to elements. This makes accessing elements by position faster.
+    - Arrays have better cache locality which makes a pretty big difference in performance.
+    - Arrays represent multiple data items of the same type using a single name.
+    - Arrays are used to implement the other data structures like linked lists, stacks, queues, trees, graphs, etc.
+🟩 Disadvantages of Array :
+    - As arrays have a fixed size, once the memory is allocated to them,
+    - It cannot be increased or decreased, making it impossible to store extra data if required.
+    - An array of fixed size is referred to as a static array. 
+    - Allocating less memory than required to an array leads to loss of data.
+    - An array is homogeneous in nature so, a single array cannot store values of different data types.
+    - Arrays store data in contiguous memory locations, which makes deletion and insertion very difficult to implement.
+    - This problem is overcome by implementing linked lists, which allow elements to be accessed sequentially.
