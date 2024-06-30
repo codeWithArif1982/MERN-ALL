@@ -1,0 +1,206 @@
+🟩 VS Code Emmet:
+    🟩 ! or html:5:
+        - Basic HTML5 template
+    🟩 a:
+        - Creates an <a href=""></a> tag
+    🟩 p:
+        - Generates a <p></p> paragraph tag
+    🟩 img:
+        - Produces an <img src="" alt=""> tag
+    🟩 ul>li:
+        - Creates a list, can be combined with * for multiple items
+    🟩 table>tr>td:
+        - Generates a table structure
+    🟩 input:checkbox:
+        - Creates a checkbox input
+    🟩 form:post:
+        - Generates a form with the method set to POST
+    🟩 br:
+        - Inserts a line break
+    🟩 #header:
+        - Generates <div id="header"></div>
+    🟩 .container:
+        -Produces <div class="container"></div>
+
+🟩 Core HTML Tags :
+    🟩 DOCTYPE Declaration:
+        - This declaration defines the document type and version of HTML
+    🟩 HTML Element:
+        - This is the root element of an HTML page
+    🟩 Head Section:
+        - Contains meta-information about the document, like character encoding, title, linked CSS files, and scripts.
+    🟩 Body Section:
+        - Contains the contents of the HTML document.
+        - This is where you place the content that will be visible to users.
+    🟩 Comments
+        - Comments are not displayed in the browser, but they can help document your HTML source code
+
+🟩 Structural Tags:
+    🟩 <!DOCTYPE html>:
+        - Declares the document type
+    🟩 <html>:
+        - The root element of an HTML page
+    🟩 <head>:
+        - Contains meta-information about the document
+    🟩 <body>:
+        - Contains the contents of the HTML document
+    🟩 <header>:
+        - Represents introductory content, typically containing one or more heading elements (<h1> to <h6>) and navigation elements (<nav>)
+    🟩 <nav>:
+        - Defines a set of navigation links
+    🟩 <main>:
+        - Specifies the main content of the document
+    🟩 <section>:
+        - Defines a section in a document, such as a chapter, header, footer, or any other sections of the document
+    🟩 <article>:
+        - Represents a self-contained composition in a document, page, application, or site
+    🟩 <aside>:
+        - Used for content that is tangentially related to the content around the <aside> element
+    🟩 <footer>:
+        - Represents the footer of a document or section
+
+🟩 Text Formatting Tags :
+    🟩 <h1> to <h6>: 
+        - These tags are used for creating headings. <h1> represents the most important heading, while <h6> represents the least important.
+    🟩 <p>: 
+        - Defines a paragraph.
+    🟩 <strong>:
+        - Makes text bold.
+    🟩 <em>: 
+        - Italic text, indicating emphasis.
+    🟩 <br>: 
+        - Inserts a line break.
+    🟩 <small>:
+        - Decreases the size of the text.
+    🟩 <mark>:
+        - Highlights text.
+    🟩 <sub>: 
+        - Creates subscript text.
+    🟩 <sup>: 
+        - Creates superscript text.
+    🟩 <del>: 
+        - Represents deleted text.
+    🟩 <code>: 
+        - Displays its contents styled in a fashion intended to indicate that the text is a short fragment of computer code.
+    🟩 <q>: 
+        - Defines a short inline quotation.
+    🟩 <blockquote>: 
+        - Represents a section that is quoted from another source, and the cite attribute can include the URL of the source.
+    🟩<hr>: 
+        - Inserts a horizontal rule, which defines a thematic break in an HTML page.
+    🟩<b>:
+        -  Bold text
+    🟩<i>: 
+        - Italic text
+    🟩<u>:
+        - Underlined text
+
+🟩 List Tags :
+    🟩 <ul>
+        - Used for an unordered list, where list items (<li>) are typically displayed with bullets.
+    🟩 <ol>
+        - Used for an ordered list, where list items are displayed with numbers or letters.
+
+🟩 Link Tags :
+    🟩 External links:
+        - These are links that lead to other websites. The target="_blank"  attribute opens the link in a new tab or window.
+    🟩 Internal links:
+        -These links lead to different sections within the same web page.
+    🟩 Email link:
+        - The mailto: protocol in the href attribute creates a link that opens the user's default email client with the address specified in the link.
+    🟩 Telephone link:
+        - The tel: protocol creates a link that, when clicked on a device capable of making phone calls, will start a call to the specified number.
+
+🟩 Link Tags :
+    🟩 <img>:
+        - This tag is used for embedding an image in the HTML page. The src attribute specifies the path to the image file, and the alt attribute provides alternative text for the image if it cannot be displayed. The width attribute specifies the width of the image.
+    🟩 <video>:
+        - The <video> tag is used to embed video content. It can contain one or more <source> elements to specify multiple video sources for different formats. The controls attribute adds video controls, like play, pause, and volume.
+    🟩 <audio>:
+        - Similar to <video>, the <audio> tag is used for embedding audio content and can contain multiple <source> elements. The controls attribute adds audio controls.
+    🟩 <iframe>:
+        - This tag is used to embed another HTML document within the current page.
+
+
+🟩 Form Tags :
+    🟩 <form> :
+        - This tag is used to create the form. The action attribute specifies where the form data should be sent when it's submitted, and the method attribute specifies the HTTP method (GET or POST).
+    🟩 <label>:
+        - Defines a label for an <input> element.
+    🟩 <input>:
+        - This tag is a versatile form element. Depending on the type attribute, it can be a text field, password field, radio button, checkbox, etc.
+    🟩 <textarea>:
+        - Allows for multi-line text input. It's useful for longer, free-form text like comments or descriptions.
+    🟩 <input type="submit">:
+        - Defines a button for submitting the form.
+
+
+🟩 Inter active Tags :
+    🟩 <button>:
+        - A clickable button.   
+    🟩 <details> and <summary>:
+        - These tags create a collapsible section. <details> is the container, and <summary> provides a clickable heading. Content placed within <details> but outside <summary> is hidden or shown when the user clicks on the <summary>.
+    🟩 <dialog>:
+        - Represents a dialog box or other interactive component. JavaScript is used to show and hide the dialog.
+    🟩 <progress>:
+        - Displays a progress bar. The value attribute specifies the current progress.
+    🟩 <input type="range">:
+        - Creates a slider for selecting a numerical value within a specified range.
+    🟩 <select> and <option>:
+        - Create a dropdown list. <select> defines the dropdown, and <option> elements represent the options within the dropdown.
+
+🟩 Special Purpose Tags :
+    🟩 <iframe>:
+        - This tag embeds an external webpage within the current HTML document.
+    🟩 <embed>:
+        - Used for embedding external content like a video.
+    🟩 <object>:
+        - A versatile tag for embedding various types of multimedia and applications.
+    🟩 <svg>:
+        - Stands for Scalable Vector Graphics. It's used to define vector-based graphics in XML format.
+
+🟩 Scripting Tags :
+    🟩 The <script> tag  section contains JavaScript code directly within it.
+    🟩 The <noscript> tag provides an alternative content for users who have JavaScript disabled in their browser. This is important for accessibility and ensuring that essential information or functionality is still available without JavaScript.
+
+🟩 Meta Tags :
+    🟩 Title Tag:
+        - Defines the page title shown in browser tabs and search results
+    🟩 Description Meta Tag:
+        - A brief summary of the page's content
+    🟩 Keywords Meta Tag:
+        - Lists keywords relevant to the page's content
+    🟩 Robots Meta Tag:
+        - Directives for search engine crawling and indexing
+    🟩 Content-Type:
+        - Specifies the character encoding for the HTML document
+    🟩 Default-Style:
+        - Defines the default stylesheet
+    🟩 Refresh:
+        - Sets an automatic page refresh interval
+    🟩 OG Title:
+        - The title for social media sharing
+    🟩 OG Type:
+        - The type of content (e.g., website, article)
+    🟩 OG Image:
+        - Image URL for social media.
+    🟩Twitter Card:
+        - The Twitter card type.
+    🟩Twitter Title/Description:
+        - Title and description for Twitter.
+    🟩 Viewport:
+        -Controls the page's viewport settings.
+    🟩 Content-Security-Policy:
+        -Security policy for resource loading
+    🟩 Application-Name:
+        -The name of the web application
+    🟩 Theme-Color:
+        -Suggests a browser theme color
+    🟩 Google Search Console Verification:
+        -Verifies ownership for Google Search Console.
+    🟩 Author, Publisher:
+        -Defines the author or publisher of the page.
+    🟩 Pragma, Cache-Control, Expires:
+        - Controls browser and server caching.
+
+🟩  Tags :

@@ -1,0 +1,49 @@
+## An algorithm is a step-by-step procedure or formula for solving a problem.
+
+
+## Characteristic of a good Algorithm
+    - Input : zero or multiple inputs
+    - Output : At least one Output  is produce.
+    - Definiteness : Each step is precisely define.
+    - Finiteness : The algorithm must terminate after a finite number of steps.
+    - Effectiveness : Each step is simple enough to be carried out in a finite amount of time.
+
+## Why algorithm Matters
+    - Efficiency :
+    - Scalability :
+    - Problem solving  : fundamental of solving Complex Programming  Problems
+    - Interview Success : Core part of technical interview assessments
+
+## Types of Algorithm
+    - Sorting Algorithm:
+        * Bubble Sort, Merge Sort, Quicksort.
+        * Importance : Organize data, used in other Algorithm (Binary Search)
+    - Searching Algorithm:
+        * Linear Search, Binary Search.
+        * Importance : Finding elements efficiently
+    - Graph Algorithm:
+        * Depth-First-Search(DFS), Breath-First-Search(BFS), Dijkstra's Algorithm.
+        * Network analysis, Path finding
+    - Dynamic Programming:
+        * Fibonacci Sequence, Knapsack Problem.
+        * Importance : Optimizing recursive solutions.
+        * Technique: Recursive, Iterative, Top-Down, Bottom-Up.
+    - Divide and Conquer :
+        * Merge Sort, Quick Sort.
+        * Breaking down problems into manageable parts.
+    - Greedy Algorithms :
+        * Huffman Coding, Prim's Algorithm.
+        * Making locally optimal choices for global solutions.
+
+## Applications of Algorithm :
+    - Data Analysis : Sorting and Searching algorithms are essential for processing and analyzing data.
+    - Networking : Graph algorithm help to find the shortest path in networks.
+    - Resource Optimization : Dynamic programming helps in making decisions that optimize resource usage.
+    - Compression  Greedy algorithms coding are used in data compression Techniques.
+
+## Algorithm Best Practice :
+    - Choose Wisely : Select the appropriate data structure and algorithm.
+    - Understand Operations : Be familiar with the Operations needed and their time complexity.
+    - Memory Management : Be mindful of memory usage.
+    -Update and Maintain : As the problem evolves, revisit and update data structures and algorithm as needed.
+    

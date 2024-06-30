@@ -1,0 +1,30 @@
+## Importance of Data Structure :
+   - Efficiency
+   - Organization
+   - Scalability
+
+## Common Data Structure :
+   - Array : Ordered collection of elements.
+   - Linked Lists : Elements Connected by pointers.
+   - Stacks : Last In First Out (LIFO) Structure.
+   - Queues : First In First Out (FIFO) Structure.
+   - Trees : Hierarchical Structure.
+   - Graphs : Network of nodes and edges.
+   - Hash Tables : Key-value pairs.
+
+## Time Space TradeOff
+
+## Types of Data Structure :
+    - Primitive Data Structures :  Basic building blocks (int, float, char).
+    - Non-Primitive Data Structures : Derived from Primitive data structure (Array, Lists)
+
+    - Liner Data Structures : Elements are stored in a linear sequence (arrays, linked lists).
+    - Non-Liner Data Structures : Elements are not in a sequence (Trees, Graphs).
+
+## Operations on Data Structures :
+    - Traversal : Visiting each elements.
+    - Insertion : Adding elements.
+    - Deletion : Remove elements.
+    - Search : Finding an elements.
+    - Sorting : Arranging elements in a specific order.
+    - Merging : Combining two data structures.
