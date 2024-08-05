@@ -1,0 +1,9 @@
+:root {
+   --colorPrimary : orange;
+    --fontPrimary : 100px;
+}
+
+p{
+    color : var(--colorPrimary);
+    font-size: var(--fontPrimary);
+}
